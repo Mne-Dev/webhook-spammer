@@ -11,7 +11,7 @@ def ascii():
     print(f'{title}')
 
 def clearAndAscii():
-    os.system('cls')
+    os.system('clear')
     ascii()
 
 ascii()
